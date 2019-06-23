@@ -9,16 +9,11 @@ using System.Windows.Forms;
 
 namespace ModalModalessForm
 {
-    public partial class FormMain : Form
+    public partial class FormModalless : Form
     {
-        public FormMain()
+        public FormModalless()
         {
             InitializeComponent();
-        }
-
-        private void ToolStripStatusLabel1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
