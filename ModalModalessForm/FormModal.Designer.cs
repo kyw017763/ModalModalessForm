@@ -43,6 +43,7 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "FormModal";
+            this.Load += new System.EventHandler(this.FormModal_Load);
             this.ResumeLayout(false);
 
         }
